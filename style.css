@@ -191,7 +191,8 @@ body {
 
 .p-languages {
   display: flex;
-  justify-content: flex-start;
+  float: right;
+  align-items: center;
   list-style: none;
   margin-top: 10px;
   gap: 15px;
