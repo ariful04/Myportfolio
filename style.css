@@ -66,7 +66,7 @@ body {
 .main-content {
   display: flex;
   justify-content: center;
-  background-image: url(/images/header-shapes\ mobile.png);
+  background-image: url(images/header-shapes\ mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom-left-radius: 100px;
@@ -173,6 +173,11 @@ body {
 .portfolio-img {
   width: 100%;
   border-radius: 8px;
+}
+
+.portfolio-img:hover {
+  transform: scale(1.1);
+  transition: all 1s;
 }
 
 .project-name {
@@ -455,7 +460,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   background-color: #6070ff;
-  background-image: url(/images/contact\ form-mobile.png);
+  background-image: url(images/contact\ form-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-top-left-radius: 80px;
@@ -598,7 +603,7 @@ body {
   }
 
   .main-content {
-    background-image: url(/images/Header\ bg.png);
+    background-image: url(images/Header\ bg.png);
     background-repeat: no-repeat;
     background-size: calc(100%);
     height: 1000px;
@@ -786,7 +791,7 @@ body {
   }
 
   .contact-form {
-    background-image: url(/images/desktop-contact-form-shapes.png);
+    background-image: url(images/desktop-contact-form-shapes.png);
     border-top-left-radius: 80px;
     background-size: contain;
   }
